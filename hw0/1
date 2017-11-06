@@ -1,0 +1,7 @@
+import collections
+
+
+file=open("word.txt",'r')
+
+for line in file.readlines():
+    print(line)
